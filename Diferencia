@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main (void){
+	int n1, n2, res;
+	
+	printf("Itroduzca el valor del primer numero: \n");
+	scanf("%d",&n1);
+	printf("Introduzca el segundo valor del segundo numero: \n");
+	scanf("%d",&n2);
+	if (n1<n2)
+	 res=n2-n1;
+	else
+	 res=n1-n2;
+	printf("La diferencia absoluta de los numeros es: \n%d",res);
+	return 0;
+}
